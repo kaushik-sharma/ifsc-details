@@ -2,7 +2,7 @@ import {
   IfscRecord,
   IfscRecordDocument,
   IfscRecordModel,
-} from "../models/ifsc_record_model";
+} from "../models/ifsc_record_model.js";
 
 export class IfscRecordRepository {
   static readonly upsertRecord = async (

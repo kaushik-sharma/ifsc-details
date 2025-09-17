@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import logger from "../utils/logger";
+
+import logger from "../utils/logger.js";
 
 export class MongooseService {
   static readonly connect = async () => {
